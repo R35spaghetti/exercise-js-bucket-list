@@ -27,3 +27,4 @@ for (let i = 1; i <= 3; i++) {
     anotherItem.innerHTML = `new item ${i}`;
     target.append(anotherItem);
 }
+console.log(target.children.length);
