@@ -39,3 +39,5 @@ target.replaceChild(replaceChild,target.firstChild);
 const replaceMiddleChild = document.createElement('p');
 replaceMiddleChild.innerHTML = `success`;
 target.replaceChild(replaceMiddleChild,target.children[2]);
+
+target.removeChild(target.lastChild);
