@@ -31,3 +31,7 @@ console.log(target.children.length);
 
 const owner = document.querySelector('.owner');
 owner.innerHTML = "Richard";
+
+const replaceChild = document.createElement('p');
+replaceChild.innerHTML = "drop database";
+target.replaceChild(replaceChild,target.firstChild);
