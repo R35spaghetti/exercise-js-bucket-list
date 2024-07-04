@@ -22,7 +22,7 @@ const newItem = document.createElement('p');
 newItem.innerHTML = "Bucket";
 target.prepend(newItem);
 
-for (let i = 1; i <= 3; i++) {
+for (let i = 0; i < 3; i++) {
     const anotherItem = document.createElement('p');
     anotherItem.innerHTML = `new item ${i}`;
     target.append(anotherItem);
