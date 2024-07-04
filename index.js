@@ -28,3 +28,6 @@ for (let i = 1; i <= 3; i++) {
     target.append(anotherItem);
 }
 console.log(target.children.length);
+
+const owner = document.querySelector('.owner');
+owner.innerHTML = "Richard";
