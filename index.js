@@ -5,3 +5,8 @@ document.body.appendChild(bucketListItem);
 const anotherBucketListItem = document.createElement('p');
 anotherBucketListItem.innerHTML = 'spacecraft';
 bucketListItem.insertAdjacentElement("afterend", anotherBucketListItem);
+
+const allP = document.getElementsByTagName('p');
+for (let i = 0; i < allP.length; i++) {
+    console.log(allP[i].innerHTML);
+}
