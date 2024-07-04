@@ -10,3 +10,8 @@ const allP = document.getElementsByTagName('p');
 for (let i = 0; i < allP.length; i++) {
     console.log(allP[i].innerHTML);
 }
+
+const newDiv = document.createElement('div');
+const stringInner = "This is a div element as a string";
+newDiv.innerHTML = stringInner;
+document.body.appendChild(newDiv);
