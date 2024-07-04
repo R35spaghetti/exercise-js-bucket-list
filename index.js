@@ -35,3 +35,7 @@ owner.innerHTML = "Richard";
 const replaceChild = document.createElement('p');
 replaceChild.innerHTML = "drop database";
 target.replaceChild(replaceChild,target.firstChild);
+
+const replaceMiddleChild = document.createElement('p');
+replaceMiddleChild.innerHTML = `success`;
+target.replaceChild(replaceMiddleChild,target.children[2]);
